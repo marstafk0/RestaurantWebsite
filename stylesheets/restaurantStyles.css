@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body {
+    background-color: #FAF0E6;
+	font-family: 'Staatliches', cursive;
+}
+
+header {
+    background-color: indianred;
+    color: white;
+
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: indianred;
+	color: white;
+	text-align: center;	
+	
+}	
+
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: grey;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: blue;
+  font-weight:bold;
+}
+
+
+a:active {
+  color: hotpink;
+  text-decoration: none;
+}
+
+    

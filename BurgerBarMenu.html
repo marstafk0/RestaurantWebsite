@@ -10,62 +10,201 @@ Most Recent Revision: 06/5/21
 <html lang="en">
 
 	<head>
+	
+	<style type="text/css">
+		.tab { margin-left: 40px; }
+		div.fsize {
+		font-size: 150%;
+		}
+	</style>
+	
 	<title>Burger Bar Restraunt</title>
+	
+	<link href="stylesheets\restaurantStyles.css" rel="stylesheet" type="text/css" />
+	
 	</head>
+	
 	<body>
-	<header>
-	<h1><p style="text-align:center;">Burger Bar</p></h1>
+	
+	<header><br />
+	<h1><div class="fsize"><center>Burger Bar</div></h1></center>
+	<hr />
+	</header>
+	<nav><h2>
+	<a href="BurgerBarMain.html" class="tab">Home</a>
+	<a href="BurgerBarMenu.html" class="tab">Menu</a>
+	<a href="BurgerBarContact.html" class="tab">Contact</a>
+	</nav></h2>
 	<hr />
 	
-	<nav>
-	<a href="BurgerBarMain.html">Home</a>
-	<a href="BurgerBarMenu.html">Menu</a>
-	<a href="BurgerBarContact.html">Contact</a>
-	</nav>
-	<hr />
 	
-	<br /><b>Burger and Fries</b><br />
-	An American classic!<br />
-	Pickle, onion, tomatoe, lettuce<br /> 
-	Served with our famous seasoned fries!<br />
-	$7.99<p>
 	
-	<br /><b>Homemade Pizza</b><br />
-	Homemade pepperoni pizza<br /> 
-	comes with a side of ranch.<br /> 
-	$9.99<p>
+	<style>
+		div.relative {
+		position: relative;
+		left: 120px;
+		top: 30px;
+		height: 160px;
+		width: 400px;
+		border: 3px solid indianred;
+		}
+	
+		div.pizza {
+		position: relative;
+		left: 120px;
+		top: 180px;
+		height: 160px;
+		width: 400px;
+		border: 3px solid indianred;
+		}
+	
+		div.dog {
+		position: relative;
+		left: 780px;
+		top: 14px;
+		height: 160px;
+		width: 400px;
+		border: 3px solid indianred;
+		}
+	
+		div.mac {
+		position: relative;
+		left: 780px;
+		bottom: 468px;
+		height: 160px;
+		width: 400px;
+		border: 3px solid indianred;
+		}
+	
+		div.rabbit {
+		position: relative;
+		left: 1400px;
+		bottom: 634px;
+		height: 160px;
+		width: 400px;
+		border: 3px solid indianred;
+		}
+		
+		div.cheese {
+		position: relative;
+		left: 1400px;
+		bottom: 484px;
+		height: 160px;
+		width: 400px;
+		border: 3px solid indianred;
+		}
+		
+		div.tableb {
+		position: relative;
+		bottom: 340px;
+		border: 3px solid indianred;
+		
+		}
+		
+	</style>
+	
+	<div class="relative">
+	<b><h2 class="tab">Burger and Fries</h2></b>
+	<section class="tab">
+	An American classic!
+	Pickle, onion, tomatoe, lettuce 
+	Served with our famous seasoned fries!
+	<br /><br /><b>$7.99</b></section></div>
+	
+	<div class="pizza">
+	<h2 class="tab"><b>Homemade Pizza</b></h2>
+	<section class="tab">
+	Homemade pepperoni pizza
+	comes with a side of ranch.
+	<br /><br /><b>$9.99</b></section></div>
 
-	<br /><b>Hotdog Platter</b><br />
-	Five hotdogs with whatever topping you want!<br /> 
-	comes with bottomless fries!<br /> 
-	$11.99<p>
+	<div class="dog">
+	<h2 class="tab"><b>Hotdog Platter</b></h2>
+	<section class="tab">
+	Five hotdogs with whatever topping you want!
+	comes with bottomless fries!
+	<br /><br /><b>$11.99</b></section></div>
 	
-	<br /><b>MacNgrill Cheese</b><br />
-	Our signature dish!<br />
-	Grilled cheese sandwich stuffed with mac'n'cheese!<br />
-	Includes a side of pickles.<br />
-	$6.99<p>
+	<div class="mac">
+	<h2 class="tab"><b>MacNgrill Cheese</b></h2>
+	<section class="tab">
+	Our signature dish!
+	Grilled cheese sandwich stuffed with mac'n'cheese!
+	Includes a side of pickles.
+	<br /><br /><b>$6.99</b></section></div>
 	
-	<br /><b>Rabbit Food</b><br />
-	Our style of salad for you plant eaters out there<br />
-	$3.99<p>
+	<div class="rabbit">
+	<h2 class="tab"><b>Rabbit Food</b></h2>
+	<section class="tab">
+	Our style of salad for you plant eaters out there
+	<br /><br /><b>$3.99</b></section></div>
 	
-	<br /><b>Fried Cheese Curds</b><br />
-	Delicious fried Wisconsin cheese curds<br />
-	served hot with ranch.<br />
-	$4.99<p>
+	<div class="cheese">
+	<h2 class="tab"><b>Fried Cheese Curds</b></h2>
+	<section class="tab">
+	Delicious fried Wisconsin cheese curds
+	served hot with ranch.
+	<br /><br /><b>$4.99</b></section></div>
 	
-	<br /><br /><hr />
+	
+	<style>
+	
+	#bevs {
+			border-collapse: collapse;
+			width: 100%;
+			}
+
+	#bevs td, #bevs th {
+						border: 1px solid #ddd;
+						padding: 8px;
+						}
+
+	#bevs tr:nth-child(even){background-color: #f2f2f2;}
+
+
+	#bevs th {
+				padding-top: 12px;
+				padding-bottom: 12px;
+				text-align: left;
+
+				}
+	</style>
+
+	<div class="tableb">
+	<table id="bevs">
+	<tr>
+		<th>Beverages</th>
+	</tr>
+	<tr>
+		<td>Root Beer</td>
+		<td>$2.99</td>
+	</tr>
+	<tr>
+		<td>Lemonade</td>
+		<td>$.99</td>
+	</tr>
+	<tr>
+		<td>Iced Tea</td>
+		<td>$1.99</td>
+	</tr>
+	<tr>
+		<td>Corona Premier</td>
+		<td>$2.99</td>
+	</tr>
+	</table>
+	
+	</div>
+	
+	
+	
+	<footer>
 	<p> 1234 Bubs St. SW Cedar Pint Minnesota 77100 
 	<br /> 
 	<br /> (777)-123-8888 </p>
 	<hr />
 
-
-	<footer>
 			<p>&copy; 2021 Burger Bar. All rights reserved.</p>
 		</footer>
-
 	</body>
 
 

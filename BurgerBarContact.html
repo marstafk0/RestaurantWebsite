@@ -9,32 +9,50 @@ Most Recent Revision: 06/05/21
 <html>
 <html lang="en">
 
-
 	<head>
+	
+	<style>
+		.tab { margin-left: 40px; }
+		div.fsize {
+		font-size: 150%;
+		}
+	</style>
+	
+	<style type="text/css">
+		label.required {
+		color: #c00;
+		font-weight: bold;
+		}
+
+	</style>
+	
 	<title>Burger Bar Restraunt</title>
+	
+	<link href="stylesheets\restaurantStyles.css" rel="stylesheet" type="text/css" />
+	
 	</head>
 	<body>
-	<header>
-	<h1><p style="text-align:center;">Burger Bar</p></h1>
+	<header><br />
+	<h1><div class="fsize"><center>Burger Bar</div></h1></center>
 	<hr />
-	
-	<nav>
-	<a href="BurgerBarMain.html">Home</a>
-	<a href="BurgerBarMenu.html">Menu</a>
-	<a href="BurgerBarContact.html">Contact</a>
-	</nav>
+	</header>
+	<nav><h2>
+	<a href="BurgerBarMain.html" class="tab">Home</a>
+	<a href="BurgerBarMenu.html" class="tab">Menu</a>
+	<a href="BurgerBarContact.html" class="tab">Contact</a>
+	</nav></h2>
 	<hr /><br />
 	
 		<center>
 		<form action="submit.html" method="POST">
-		<label for="name">Name:</label> 
+		<label for="name" class="required">Name:</label> 
 		<input type="text" id="name" name="name"> <br /><br />
 		<label for="phone">Phone:</label>
 		<input type="text" id="phone" name="phone"> <br /><br />
-		<label for="email">Email:</label>
+		<label for="email" class="required">Email:</label>
 		<input type="text" id="email" name="email"> <br /><br />
 		
-		<label for="contact">Reason for Inquiry:</label>
+		<label for="contact" class="required">Reason for Inquiry:</label>
 		<select id="contact" name="contact">
 		<option value="default" selected>Catering</option>
 		<option value="morning">Private party</option>
@@ -64,15 +82,15 @@ Most Recent Revision: 06/05/21
 		<label for="Fri">F</label><br /><br />
 		
 		<input type="submit" name="sendRequest" value="Send Request">
-			
+		
+	
 	<p><br /><br /><hr />	
+	<footer>
 	<p> 1234 Bubs St. SW Cedar Pint Minnesota 77100 
 	<br /> 
 	<br /> (777)-123-8888 </p>
 	<hr />
-
-
-	<footer>
+	
 			<p>&copy; 2021 Burger Bar. All rights reserved.</p>
 		</footer>
 
